@@ -2,7 +2,7 @@
 
 ## WebRTC Video and Signaling sample
 
-**`[./webrtc-from-chat](./webrtc-from-chat)`**:
+[**`./webrtc-from-chat`**](./webrtc-from-chat):
 
 This sample demonstrates how to use WebSockets to create a signaling server for WebRTC calling.
 The signaling server is based on the WebSocket chat sample, but adds support for opening a video call to another user by clicking on their name in the user list sidebar.
