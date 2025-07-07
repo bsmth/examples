@@ -1,0 +1,23 @@
+{
+  "name": "webrtc-from-chat",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "start": "node chat-server.js"
+  },
+  "type": "module",
+  "version": "2.0.0",
+  "description": "A WebSocket-based chat server with two-way video call support.",
+  "bugs": "https://github.com/mdn/content/issues",
+  "license": "CC0",
+  "author": "Eric Shepherd / Mozilla",
+  "main": "chat-server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bsmth/examples.git"
+  },
+  "dependencies": {
+    "websocket": "1.0.35"
+  }
+}

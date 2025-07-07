@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en-US",
+  "languageId": "*",
+  "useGitignore": true,
+  "dictionaries": [
+    "terms-abbreviations",
+    "cultural-words",
+    "proper-names",
+    "non-english",
+    "code-entities",
+    "ignore-list",
+    "bash",
+    "css",
+    "fonts",
+    "fullstack",
+    "html",
+    "latex",
+    "lorem-ipsum",
+    "markdown",
+    "node",
+    "npm",
+    "python",
+    "softwareTerms",
+    "typescript"
+  ],
+  "ignorePaths": [
+    ".vscode/cspell.json",
+    ".vscode/extensions.json",
+    ".markdownlint-cli2.jsonc"
+  ],
+  "words": ["ORTC", "sessionpart", "transceive", "webrtc"]
+}
