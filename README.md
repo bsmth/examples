@@ -1,14 +1,10 @@
 # examples
 
-## WebRTC Chat and Video Sample With Statistics
+## WebRTC Video and Signaling sample
 
-**`./websocket-webrtc-chat-with-stats`**:
+**`[./webrtc-from-chat](./webrtc-from-chat)`**:
 
 This sample demonstrates how to use WebSockets to create a signaling server for WebRTC calling.
 The signaling server is based on the WebSocket chat sample, but adds support for opening a video call to another user by clicking on their name in the user list sidebar.
 
-This version of the sample adds support for WebRTC statistics.
-
 See the article [Signaling and video calling](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling) on MDN for detailed information on how this code works.
-
-See the article on the [RTCRemoteOutboundRtpStreamStats.localId](https://developer.mozilla.org/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats/localId) property for a description of the statistics parts of this code.
